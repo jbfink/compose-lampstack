@@ -1,0 +1,12 @@
+php:
+ image: php:apache
+ links:
+  - mariadb:db
+ ports: 8080:80
+ command: apache2-foreground
+
+mariadb:
+ image: mariadb
+ extends:
+ file: extras.yml
+ service: mariadb

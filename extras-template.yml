@@ -1,0 +1,6 @@
+mariadb:
+ environment: 
+  - MYSQL_ROOT_PASSWORD=xxxxx
+  - MYSQL_DATABASE=xxxxx
+  - MYSQL_USER=xxxxx
+  - MYSQL_PASSWORD=xxxxx
